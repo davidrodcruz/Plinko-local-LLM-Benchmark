@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plinko Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="gameBody">
+    <div class="container">
+        <div class="sidebar">
+            <div class="section">
+                <div class="btn-group">
+                    <button data-count="1">1</button>
+                    <button data-count="10">10</button>
+                    <button data-count="50">50</button>
+                    <button data-count="100">100</button>
+                </div>
+            </div>
+            <div class="section">
+                <button id="playBtn">Play</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="resetBtn">Reset Stats</button>
+            </div>
+            <div class="section">
+                <div class="label">VOLUME</div>
+                <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5">
+            </div>
+            <div class="section scoreboard">
+                <div class="label">SCORE</div>
+                <div id="scoreValue" class="value">0</div>
+                <div class="label" style="margin-top: 20px;">ACTIVE BALLS</div>
+                <div id="ballCount" class="value">0</div>
+            </div>
+            <div class="section">
+                <div class="label">DISTRIBUTION</div>
+                <div id="distro" class="distro-grid"></div>
+            </div>
+        </div>
+        <canvas id="plinkoCanvas" width="600" height="750"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
