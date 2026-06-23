@@ -2,7 +2,6 @@
 
 A high-performance, interactive Plinko physics simulation built exclusively with **Vanilla JavaScript, HTML, and CSS**. No external physics engines or libraries were used.
 
-![Plinko Demo](https://via.placeholder.com/600x400?text=Neon+Plinko+Simulation+Screenshot)
 
 ## 🚀 Features
 
@@ -47,7 +46,7 @@ No installation required. Since this is a vanilla frontend project, you can run 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/neon-plinko.git
+   git clone https://github.com/davidrodcruz/Plinko-local-LLM-Benchmark.git
    ```
 2. Open `index.html` in your favorite browser.
 3. **Note:** Click anywhere on the page first to enable the Web Audio API sound effects.
